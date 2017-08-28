@@ -1,1 +1,1 @@
-# w205-fall-17-labs-exercises
+All the course related information: syllabus, final project and overview of exercises

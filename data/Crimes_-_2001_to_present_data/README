@@ -1,0 +1,38 @@
+$git clone https://github.com/UC-Berkeley-I-School/w205-labs-exercises.git
+
+The files are in the data/Crimes_-_2001_to_present_data directory.
+Once you have the files (there should be seven of them, all starting with the
+letter x), run the following commands (make sure you do not have otherfiles starting with
+x in the directory). The first one will concatenate the split files into one file. The
+original file was a compressed CSV file, so we name it appropriately. Next we uncompress
+it to get the original CSV file. 
+
+$ cat x* > Crimes_-_2001_to_present.csv.gz
+$ gunzip Crimes_-_2001_to_present.csv.gz
+
+The result should be that you have the Crime data CSV file in your directory. You
+also still have the original split  files. If you run ls it should look something like
+this:
+
+$ ls
+Crimes_-_2001_to_present.csv xac xaf
+xaa xad xag
+xab xae
+
+You can check the correctness of the resulting files by checking the file size or
+the number of rows in the file. The size may vary on different computers,
+but the number of lines should remain the same.
+$ du -s Crimes_-_2001_to_present.csv
+2688712 Crimes_-_2001_to_present.csv
+$ wc -l Crimes_-_2001_to_present.csv
+5862796 Crimes_-_2001_to_present.csv
+
+You could remove the split files using rm, but it is better to use the –i option so that
+you do not accidentally remove other files in the directory that you want to save.
+
+$ rm -i x*
+
+At this point you should be able to see the Crime data file in your directory.
+
+$ ls
+Crimes_-_2001_to_present.csv
