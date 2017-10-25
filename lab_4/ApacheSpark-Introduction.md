@@ -92,7 +92,7 @@ depending on were you are running this lab.
 $ echo $SPARK_HOME
 /user/lib/spark
 ```
-Navigate to that directory, and examine the contents.
+Navigate to that directory, and examine the contents.exit
 ```
 $ cd $SPARK_HOME
 $ ls
@@ -182,7 +182,7 @@ different computers, but the number of lines should remain the same.
 $ du -s Crimes_-_2001_to_present.csv
 2688712 Crimes_-_2001_to_present.csv
 
-$ wc -l Crimes_-_2001_to_present.csv
+$
 5862796 Crimes_-_2001_to_present.csv
 ```
 You could remove the split files using `rm`, but it is better to use the
@@ -300,7 +300,7 @@ in HDFS or the local file system. Make sure you cloned the data file
 using the directory `/data/mylab`, if you have permission problems with this location use a directory in your home cata logue). Now create an RDD from that file
 using the following action:
 ```
->>>crimedata=sc.textFile("file:///data/mylab/Crimes_-_2001_to_present.csv")
+>>>crimedata=sc.textFile("file:///data/myab/Crimes_-_2001_to_present.csv")
 ```
 If you run the AIM, you can copy the data to HDFS and have `pyspark` get
 the file from there.
@@ -830,9 +830,7 @@ will be able to run the CLI. The following if for the AMI, but you can
 do the corresponding steps on you own computer or in another
 environment.
 ```
-wget
-http://www.us.apache.org/dist/spark/spark-1.5.0/spark-1.5.0-bin-hadoop2.6.tgzmv
-spark-1.5.0-bin-hadoop2.6 spark15
+crime
 
 export SPARK_HOME=$HOME/spark15
 
