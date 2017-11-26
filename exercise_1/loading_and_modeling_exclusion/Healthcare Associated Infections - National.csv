@@ -1,0 +1,7 @@
+"Measure Name","Measure ID","Score","Footnote","Measure Start Date","Measure End Date"
+"Central line-associated blood stream infections (CLABSI)","HAI_1_SIR","1","","10/01/2013","09/30/2014"
+"Catheter-Associated Urinary Tract Infections (CAUTI)","HAI_2_SIR","1","","10/01/2013","09/30/2014"
+"Surgical Site Infection from colon surgery (SSI: Colon)","HAI_3_SIR","1","","10/01/2013","09/30/2014"
+"Surgical Site Infection from abdominal hysterectomy (SSI: Hysterectomy)","HAI_4_SIR","1","","10/01/2013","09/30/2014"
+"Methicillin-resistant Staphylococcus Aureus (MRSA) Blood Laboratory-identified Events (Bloodstream infections)","HAI_5_SIR","1","","10/01/2013","09/30/2014"
+"Clostridium difficile (C.diff.) Laboratory-identified Events (Intestinal infections)","HAI_6_SIR","1","","10/01/2013","09/30/2014"

@@ -1,0 +1,4 @@
+"Measure Name","Measure ID","National payment","Number less than national payment","Number same as national payment","Number greater than national payment","Number of hospitals too few","Footnote","Measure start date","Measure end date"
+"Payment for heart attack patients","PAYM_30_AMI","$21,791","175","1854","368","1944","","07/01/2011","06/30/2014"
+"Payment for heart failure patients","PAYM_30_HF","$15,223","388","2584","731","942","","07/01/2011","06/30/2014"
+"Payment for pneumonia patients","PAYM_30_PN","$14,294","684","2852","670","479","","07/01/2011","06/30/2014"

@@ -1,0 +1,8 @@
+"Measure Name","Measure ID","National Rate","Number of Hospitals Worse","Number of Hospitals Same","Number of Hospitals Better","Number of Hospitals Too Few","Footnote","Measure Start Date","Measure End Date"
+"Deaths among Patients with Serious Treatable Complications after Surgery","PSI_4_SURG_COMP","117.75","65","1730","45","1028","","07/01/2012","06/30/2014"
+"Collapsed lung due to medical treatment","PSI_6_IAT_PTX","0.39","23","3334","1","35","","07/01/2012","06/30/2014"
+"Serious blood clots after surgery","PSI_12_POSTOP_PULMEMB_DVT","4.35","212","2725","153","129","","07/01/2012","06/30/2014"
+"A wound that splits open  after surgery on the abdomen or pelvis","PSI_14_POSTOP_DEHIS","1.70","7","2612","0","428","","07/01/2012","06/30/2014"
+"Accidental cuts and tears from medical treatment","PSI_15_ACC_LAC","1.81","199","3066","89","36","","07/01/2012","06/30/2014"
+"Serious complications","PSI_90_SAFETY","0.81","213","3072","110","Not Available","","07/01/2012","06/30/2014"
+"Rate of complications for hip/knee replacement patients","COMP_HIP_KNEE","3.1","45","2711","54","697","","04/01/2011","03/31/2014"
