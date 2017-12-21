@@ -61,7 +61,7 @@ and start Postgres
 3. Unzip the data: 
 
   ``` 
-  unzip pagila.zip
+  unzip pangila.zip
   ```
 
 4. Connecting to the PostgreSQL instance:
